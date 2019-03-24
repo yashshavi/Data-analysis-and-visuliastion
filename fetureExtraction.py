@@ -34,7 +34,7 @@ try:
 #duration
 	duration=int(m/sampling_rate)#duration of audio
 
-#furrier transform of data
+#furrier transform of data i.e finding frequencies
 	data_fft = np.fft.rfft(data)
 
 #frequencies
