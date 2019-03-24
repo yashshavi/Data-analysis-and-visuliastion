@@ -1,0 +1,50 @@
+# REQUIREMENTS
+
+Installation and setup commands for various modules/libraries required
+1.librosa :
+
+pip install librosa
+
+2.scipy
+pip install scipy
+
+3.wave
+pip install wave
+
+4.pydub
+pip install pydub
+
+5.Installing FFmpeg in Windows
+
+a.Download a static build.
+b.Use 7-Zip to unpack it in the folder of your choice.
+c.Open a command prompt with administrator's rights.
+
+NOTE: Use CMD.exe, do not use Powershell! The syntax for accessing environment variables is different from the command shown in Step 4 - running it in Powershell will overwrite your System PATH with a bad value.
+Run the command (see note below; in Win7 and Win10, you might want to use the Environmental Variables area of the Windows Control Panel to update PATH):
+setx /M PATH "path\to\ffmpeg\bin;%PATH%"
+
+6.import numpy as np
+  pip install numpy
+	
+7.import pandas as pd
+  pip install pandas
+
+8.import matplotlib.pyplot as plt
+
+9.import import seaborn as sns
+  pip install seaborn
+
+10.from scipy import stats
+
+11.from scipy.stats import norm, skew
+
+12.import urllib
+
+13.import math
+
+14.import glob
+	
+15.import librosa.display
+
+16.import matplotlib.pyplot as plt
