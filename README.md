@@ -1,8 +1,10 @@
 # Data-analysis-and-visuliastion
   Analyze and  Visualize data insights of an audio file in the format .wav (Speech signal ). And communicating findings and Extracting    features.
 # Files and Folders
-  ## 1.Requirements.txt- File listing all the requirement for the project to execute.
-  ## 2.fetureExtraction.py- Python file containing code for data analysis and feature extractions from the signal.
+   1.Requirements.txt- File listing all the requirement for the project to execute.
+  
+  
+  2.fetureExtraction.py- Python file containing code for data analysis and feature extractions from the signal.
   ## 3.Sound_Ana_Vis.ipynb- Jupyter Notebook containing full featured code for Data analysis (EDA), Data Visulization, and Feature Extractiion.
   ## 4.human.wav- Audio file (dataset)
 
