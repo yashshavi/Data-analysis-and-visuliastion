@@ -223,6 +223,8 @@ try:
 	print("numFall: "+str(nooffall)+"\n")
 except:
     pass
+#Datat Analysis
+
 print('Data analysis (EDA)\n')
 d=pd.DataFrame(data,columns=["Amplitudes"],index=None)
 
@@ -257,6 +259,7 @@ print(d.describe())
 print('\n Total values: '+str(d['Amplitudes'].size))
 print('\n Unique values: '+str(d['Amplitudes'].nunique()))
 
+# Visulisation
 print('Visulisation')
 print('\n JUPITER NOOTBOOK\n')
 
